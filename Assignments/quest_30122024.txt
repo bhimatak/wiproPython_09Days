@@ -1,0 +1,91 @@
+Q1.
+Description
+Problem Description
+Write a program that takes two comma-separated lists of integers as input. For each integer N in the first list, the program needs to find the count of its occurrence called C in the second list. The program should print the N-C for each integer (one per line of output).
+
+Sample Input 1
+7,8,29
+29,8,8,8,7,7,8,7
+Sample Output 1
+7-3
+8-4
+29-1
+Sample Input 2
+1,2,3
+4,5,6,5,5,3
+Sample Output 2
+1-0
+2-0
+3-1
+Note: 
+The input and the output test cases should be an exact match as shown in the above example, otherwise the test cases will fail and you will be awarded No marks.
+========================================================
+
+
+Q2.
+Description
+Problem Statement
+
+A god number is a positive integer whose prime factors are limited to 2,3 and 5.
+
+Given an integer n, return the n-th God number.
+
+Input Format
+
+First-line contains an integer n.
+Constraints
+
+1<=n<=1000
+Output Format
+
+Return the integer as asked in the problem.
+Evaluation Parameters
+
+Sample Input
+10
+Sample Output
+12
+Explanation
+[1,2,3,4,5,6,8,9,10,12] is the sequence of the first 10 god numbers.
+
+
+The number **7** is **not** considered a God number because its only prime factor is **7**, which is **greater than 5**. 
+
+### Definition of a God Number:
+A **God number** (also called an **ugly number** in some contexts) is a positive integer whose **prime factors** are limited to the set `{2, 3, 5}`. In other words:
+- The number must be divisible **only** by 2, 3, or 5 (or a combination of them).
+- Any number that has a prime factor other than 2, 3, or 5 **cannot** be a God number.
+
+### Why 7 is not a God Number:
+- The prime factorization of 7 is simply **7**.
+- Since **7** is a prime number and does not belong to the set `{2, 3, 5}`, it does not meet the criteria to be a God number.
+
+### Examples:
+| Number | Prime Factors 	| God Number? |
+|--------|---------------	|-------------|
+| 1      | None (1 is special) 	| Yes         |
+| 2      | 2             	| Yes         |
+| 3      | 3             	| Yes         |
+| 4      | 2 × 2         	| Yes         |
+| 5      | 5             	| Yes         |
+| 6      | 2 × 3         	| Yes         |
+| 7      | 7             	| **No**      |
+| 8      | 2 × 2 × 2     	| Yes         |
+| 9      | 3 × 3         	| Yes         |
+| 10     | 2 × 5         	| Yes         |
+| 12     | 2 × 2 × 3     	| Yes         |
+| 14     | 2 × 7         	| **No**      |
+
+### Key Points:
+1. **7** is not divisible by 2, 3, or 5.
+2. It introduces a prime factor outside the allowed set, making it ineligible to be a God number.
+
+### Contrast with God Numbers:
+A valid God number might look like:
+- **6** (2 × 3): Both factors are in the set {2, 3, 5}.
+- **10** (2 × 5): Both factors are in the set {2, 3, 5}.
+
+However, a number like **7** or **14** (which is 2 × 7) is disqualified because **7** is not allowed.
+
+### Conclusion:
+**7** is not a God number because its only prime factor is **7**, which is not in the allowed set of prime factors `{2, 3, 5}`.

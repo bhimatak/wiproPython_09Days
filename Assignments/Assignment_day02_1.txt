@@ -1,0 +1,96 @@
+Q8. Check whether a given number can be expressed as the sum of two prime number
+
+i/p
+Enter a positive integer: 34
+Output
+34 = 3 + 31
+34 = 5 + 29
+34 = 11 + 23
+34 = 17 + 17
+NoofWays = 4
+
+i/p 
+Enter a positive integer: 1
+o/p
+NoofWays=-1
+
+
+Q9.Program to find nth number made of given four digits 1, 4,6 and 9 as the only digits..
+
+Input Format:
+
+The First Line Of Input Contains T no of test cases
+The Second Line Of Input Contains N as input taken.
+
+Output Format:
+Print the number of digits in the nth number .
+
+Constraints:
+
+1<=T<=100
+1<=N<=100
+
+Examples:
+
+Input : 6
+Output : 14
+
+
+Q10.
+Problem Statement:
+Given an unsorted array a of size N of non-negative integers, 
+find a continuous sub-array which adds to a given number sum.
+
+Input Format:
+The first line contains an integer, denoting the size of the array. 
+The second line contains integers denoting the elements 
+of the array.
+The last line contains an integer, denoting the sum. 
+
+Constraints
+1<= n<=100
+1<=arr<= 1000, where arr is the ith element of the array.
+1<= n<=100000
+
+Output Format:
+The output line contains integers denoting the indexes.
+
+TESTCASE 1:
+Input:
+7
+[1, 4, 0, 0, 3, 10, 5]
+
+sum = 7
+Output: 
+Sum found between indexes 1 and 4
+
+TESTCASE 2:
+Input:
+2
+[1, 4]
+sum = 0
+Output: 
+No subarray found
+
+
+Q11
+
+rotate array every kth element
+i/p
+No of Elememts in the list = 9
+Enter the elements
+
+1 2 3 4 5 6 7 8 9
+
+i/p
+k= 3
+
+o/p
+3 2 1 6 5 4 9 8 7
+
+
+k=6
+6 5 4 3 2 1 9 8 7
+
+k=4
+4 3 2 1 8 7 6 5 9

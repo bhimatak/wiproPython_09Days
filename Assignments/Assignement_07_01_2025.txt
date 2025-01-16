@@ -1,0 +1,14 @@
+Q1. develop a script in python which get the details of the Employee details from the user input and store them in MySQL.
+
+1. you need to do CRUD operations as different functions for each operations
+2. try to get the sorted data from the db and print it on the screen
+
+
+
+Q2. develop a script in python which get the details of the Employee details from the user input and store them in NoSQL.
+
+1. you need to do CRUD operations as different functions for each operations
+2. try to get the sorted data from the db and print it on the screen
+
+
+Note: use OOPS concepts in the above codes
